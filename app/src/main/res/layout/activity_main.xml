@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/swipeRefreshLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="clip_vertical"
+    tools:context="kortros.mysmartflat.ru.gulliver.Main">
+
+
+    <WebView
+        android:id="@+id/web"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale"
+
+        android:launchMode="singleInstance"
+        android:scrollbars="none|horizontal"
+
+
+        android:theme="@android:style/Theme.DeviceDefault.NoActionBar"
+        android:windowFullscreen="false"
+        android:windowSoftInputMode="adjustPan"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+</android.support.constraint.ConstraintLayout>

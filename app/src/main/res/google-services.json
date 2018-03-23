@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "866953153372",
+    "firebase_url": "https://mysmartflat-7d4fc.firebaseio.com",
+    "project_id": "mysmartflat-7d4fc",
+    "storage_bucket": "mysmartflat-7d4fc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:866953153372:android:3107e6a06593900e",
+        "android_client_info": {
+          "package_name": "kortros.mysmartflat.ru"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "866953153372-t9aau2du4c2909t7injf5bi790ifq18e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC7wsj-J6pIBNGTahzQwd_iSGhO6DKX04c"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
